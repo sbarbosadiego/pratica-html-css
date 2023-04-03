@@ -11,11 +11,11 @@
             color: #000000;
             align-content: center;
         }
-        h1, h2 {
+        h1, h2, h3 {
             font-family: Arial;
         }
-        p, li, ul {
-            font-size: larger;
+        p, li, ul, dd, dt {
+            font-size: 18px;
             text-align: justify;
             font-family: Arial;
             color: #000000;
@@ -23,12 +23,15 @@
         a {
             color: #1605ff;
         }
+        code {
+            font-size: 15px;
+        }
     </style>
 </head>
 <body>
     <h1>Est dolorem sint eum fugiat iste.</h1>
     <p>
-        Caso não esteja usando o VSCode, pode ser usado um gerador de <strong>Lorem Ipsum</strong>, clicando no <a href="https://www.loremipzum.com/pt/gerador-de-texto">link</a> é possível acessar o mesmo.<br>
+        Caso não esteja usando o VSCode, pode ser usado um gerador de <strong>Lorem Ipsum</strong>, clicando no <a href="https://www.loremipzum.com/pt/gerador-de-texto" target="_blank" rel="external">link</a> é possível acessar o mesmo.<br>
         Lorem ipsum dolor sit amet. Quo officia voluptas eos voluptatem fuga eos animi quas ex galisum porro non necessitatibus facere eos perferendis minima. Nada com nadum.<br> Aut repudiandae sapiente sed perspiciatis nostrum qui mollitia pariatur est voluptatem earum! Eos voluptates libero est ducimus adipisci ea ullam tempora non quidem velit? Et vero dolorem qui quidem molestiae est temporibus suscipit ea nobis animi.
     </p>
     <h2>Exibição de Tags</h2>
@@ -39,51 +42,108 @@
     <h2>Uso de Caracteres Especiais</h2>
     <p>
         Insersão de menor que e maior que &lt;/p&gt;, possibilitando a inserção de "tags" no texto.<br>
-        Também é possível fazer a insersão de emojis e símbolos especiais, para usar emojis basta acessar o <a href="https://emojipedia.org">emojipedia</a> localizar o codepoint do emoji e fazer a inserção do deste após digitar <strong><code>"&#x"</code></strong>, dessa forma o mesmo será exibido <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/05%20-%20Caracteres%2C%20parágrafos%20e%20quebras%20de%20linha.pdf">&#x1F986</a>(Não clica no pato).<br>
+        Também é possível fazer a insersão de emojis e símbolos especiais, para usar emojis basta acessar o <a href="https://emojipedia.org" target="_blank" rel="external">emojipedia</a> localizar o codepoint do emoji e fazer a inserção do deste após digitar <strong><code>"&#x"</code></strong>, dessa forma o mesmo será exibido <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/05%20-%20Caracteres%2C%20parágrafos%20e%20quebras%20de%20linha.pdf"target="_blank" rel="external">&#x1F986</a>(Não clica no pato).<br>
         Já os caracteres especiais conhecidos geralmente como <strong>HTML Entities</strong>, este usando uma IDE como o VSCode já sugeri alguns, mas pesquisando a tabela destes fica mais fácil, alguns exemplos: &reg; &copy; &Delta;
     </p>
     <hr>
     <h2>Uso de Imagens e Favicon</h2>
     <p>
-        É possível utilizar imagens dentro de arquivos HTML, porém é importante verificar se o uso da mesma é liberado, neste <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/06%20-%20Imagens%20e%20Favicon.pdf">repositório</a> há uma explicação sobre o uso de imagens e direitos reservados.<br>
-        Existem diversos sites que disponibilizam imagens para uso de forma gratuita, e alguns é pago uma espécice de assinatura que permite o uso da image, entretato é sempre bom verificar até em sites gratuitos sobre a permissão do uso da imagem, alguns sites com imagens gratuitas: <a href="https://www.pexels.com/pt-br/">Pexels</a>, <a href="https://pixabay.com/pt/">Pixabay</a>, <a href="https://br.freepik.com">Freepik</a> e <a href="https://unsplash.com/pt-br">Unsplash</a>.
+        É possível utilizar imagens dentro de arquivos HTML, porém é importante verificar se o uso da mesma é liberado, neste <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/06%20-%20Imagens%20e%20Favicon.pdf"target="_blank" rel="external">repositório</a> há uma explicação sobre o uso de imagens e direitos reservados.<br>
+        Existem diversos sites que disponibilizam imagens para uso de forma gratuita, e alguns é pago uma espécice de assinatura que permite o uso da image, entretato é sempre bom verificar até em sites gratuitos sobre a permissão do uso da imagem, alguns sites com imagens gratuitas: <a href="https://www.pexels.com/pt-br/" target="_blank" rel="external">Pexels</a>, <a href="https://pixabay.com/pt/" target="_blank" rel="external">Pixabay</a>, <a href="https://br.freepik.com" target="_blank" rel="external">Freepik</a> e <a href="https://unsplash.com/pt-br" target="_blank" rel="external">Unsplash</a>.
         <p style="text-align: left;">
             Basicamente a insersão de uma imagem e dimensionamento será através da seguinte tag:<br>
             <strong><code>&lt;img src</strong>="<em>local do arquivo</em>" <strong>alt</strong>="<em>texto alternativo</em>" <strong>width</strong>="300 <em>(tamanho em pixels)</em>"<strong>&gt;</code></strong>
         </p>
         <p>
-            Em caso de dúvidas em como fazer o uso de imagens com <strong> <abbr title="HyperText Markup Language">HTML</abbr></strong> basta clicar no <a href="https://www.homehost.com.br/blog/tutoriais/html-img/#:~:text=Para%20inserir%20uma%20imagem%20no,da%20imagem%20que%20será%20inserida.">link</a>.
+            Em caso de dúvidas em como fazer o uso de imagens com <strong> <abbr title="HyperText Markup Language">HTML</abbr></strong> basta clicar no <a href="https://www.homehost.com.br/blog/tutoriais/html-img/#:~:text=Para%20inserir%20uma%20imagem%20no,da%20imagem%20que%20será%20inserida." target="_blank" rel="external">link</a>.
         </p>
         <img src="../imagens/img1.jpeg" alt="Teste" width="750">
     </p>
     <hr>
     <h2>Hierarquia de Títulos e Formatação de Textos</h2>
     <p>
-        Acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/07%20-%20Hierarquia%20de%20títulos.pdf">link</a>, há uma explicação mais detalhada sobre o uso de títulos e suas hierarquias.<br>
-        Neste <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/08%20-%20Formatação%20de%20Textos.pdf">link</a> é explicado como usar a formatação de texto de forma mais adequada, além disso é abordado sobre tags obsoletas.
+        Acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/07%20-%20Hierarquia%20de%20títulos.pdf" target="_blank" rel="external">link</a>, há uma explicação mais detalhada sobre o uso de títulos e suas hierarquias.<br>
+        Neste <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/08%20-%20Formatação%20de%20Textos.pdf" target="_blank" rel="external">link</a> é explicado como usar a formatação de texto de forma mais adequada, além disso é abordado sobre tags obsoletas.
         <p>
             Uma formatação interessante é o uso das tags <code>&lt;pre&gt;</code><code>&lt;/pre&gt;</code> e <code>&lt;code&gt;</code><code>&lt;/code&gt;</code>, que combinadas pode ser feito a pré-formatação de um trecho de código, como o exemplo abaixo em Java:
         </p>
         <pre>
             <code>
-    private void salvarProduto() {
-        modelProduto.setProdutoNome(this.jtfNomeProduto.getText().toUpperCase());
-        modelProduto.setProdutoEstoque(Integer.parseInt(this.jtfEstoque.getText()));
-        modelProduto.setProdutoValor(Double.parseDouble(this.jtfValor.getText().replace(",", ".")));
-        if (controllerProdutos.salvarProdutoController(modelProduto) > 0) {
-            JOptionPane.showMessageDialog(this, "Cadastrado com sucesso!!", "ATENÇÃO",
-                    JOptionPane.INFORMATION_MESSAGE);
-            this.listarProdutos();
-            this.habilitarDesabilitarCampos(false);
-            this.limparCampos();
-        } else {
-            JOptionPane.showMessageDialog(this, "Produto não cadastrado, verifique as informações", "ERRO",
-                    JOptionPane.ERROR_MESSAGE);
-        }
+private void salvarProduto() {
+    modelProduto.setProdutoNome(this.jtfNomeProduto.getText().toUpperCase());
+    modelProduto.setProdutoEstoque(Integer.parseInt(this.jtfEstoque.getText()));
+    modelProduto.setProdutoValor(Double.parseDouble(this.jtfValor.getText().replace(",", ".")));
+    if (controllerProdutos.salvarProdutoController(modelProduto) > 0) {
+        JOptionPane.showMessageDialog(this, "Cadastrado com sucesso!!", "ATENÇÃO",
+                JOptionPane.INFORMATION_MESSAGE);
+        this.listarProdutos();
+        this.habilitarDesabilitarCampos(false);
+        this.limparCampos();
+    } else {
+        JOptionPane.showMessageDialog(this, "Produto não cadastrado, verifique as informações", "ERRO",
+                JOptionPane.ERROR_MESSAGE);
     }
+}
             </code>
         </pre>
     </p>
     <hr>
+    <h2>Listas</h2>
+    <p>
+        É possível criar listas ordenadas e não ordenadas, clicando no <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/09%20-%20Listas%20HTML.pdf" target="_blank" rel="external">link</a> será redirecinado para o material que explica como fazer o uso destas.
+    </p>
+    <h3>Lista Ordenada</h3>
+    <p>
+        Uma lista ordenada pode ser personalizado o tipo de enumerador e ordem de início.
+    </p>
+    <ol type="1" start="1">
+        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
+        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
+        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
+        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
+        <li>Módulo - HTML5 e CSS3 (Ainda não disponível)</li>
+    </ol>
+    <h3>Lista não Ordenada</h3>
+    <p>
+        Uma lista não ordenada também pode ser personalizado, porém essa não tem uma ordem a ser seguida como uma lista ordenada.
+    </p>
+    <ul type="disc">
+        <li>JoJo no Kimyou na Bouken</li>
+        <li>Code Geass</li>
+        <li>Horimiya</li>
+        <li>Fullmetal Alchemist: Brotherhood</li>
+    </ul>
+    <h3>Combinação de Listas</h3>
+    <p>
+        É possível fazer a combinação de listas, é feito a insersão de uma tag dentro da outra, ficando da forma abaixo:
+    </p>
+    <ol type="1" start="1">
+        <li>Cursos de Banco de Dados
+            <ul type="disc">
+                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r" target="_blank" rel="external"><li>MySQL</li></a>
+                <a href="https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/" target="_blank" rel="external"><li>Banco de Dados e SQL</li></a>
+            </ul>
+        </li>
+        <li>Cursos de Programação
+            <ul type="disc">
+                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV" target="_blank" rel="external"><li>Lógica de Programação</li></a>
+                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR" target="_blank" rel="external"><li>Java Básico</li></a>
+                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY" target="_blank" rel="external"><li>Orientação a Objetos</li></a>
+            </ul>
+        </li>
+    </ol>
+    <h3>Lista de Definição</h3>
+    <p>
+        Por último uma lista de definição, semelhante a um glossário:
+    </p>
+    <dt>
+        <dt>Saudade:</dt>
+        <dd>Sentimento melancólico devido ao afastamento de uma pessoa, uma coisa ou um lugar, ou à ausência de experiências prazerosas já vividas.</dd>
+    </dt>
+    <hr>
+    <h2>Links e Âncoras</h2>
+    <p>
+        No material em PDF é explicado como é criado os hyperlinks e a melhor forma de utilizá-los, acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Ligações%20em%20toda%20parte.pdf" target="_blank" rel="external">link</a> pode ser conferido o mesmo.
+    </p>
 </body>
 </html>
