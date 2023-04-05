@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+h1, h2, h3, h4 {
+    font-family: Arial;
+    text-align: center;
+}
+p {
+    width: 80%;
+    text-align: justify;
+    color: #000000;
+}
+li, ul, dd, dt {
+    color: #000000;
+}
+a {
+    color: #1605ff;
+}
+code {
+    font-size: 15px;
+}
