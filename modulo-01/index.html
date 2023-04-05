@@ -11,7 +11,7 @@
             color: #000000;
             align-content: center;
         }
-        h1, h2, h3 {
+        h1, h2, h3, h4 {
             font-family: Arial;
         }
         p, li, ul, dd, dt {
@@ -155,9 +155,13 @@ private void salvarProduto() {
         Neste <a href="https://www.visualdicas.com.br/programacao/html/80-como-criar-um-link-de-download-usando-apenas-o-html5" target="_blank" rel="external">artigo</a> é ensinado como criar links para download, porém o comportamento pode variar para alguns navegadores, segue um exemplo no link de <a href="../arquivos/pdf/Operadores-Em-Java-Tabela-De-Precedencia.rar" download="Operadores-Em-Java-Tabela-De-Precedencia">download</a>, será baixado um arquivo .rar com um PDF sobre Operadores e Tabela de Precedência em Java.
     </p>
     <hr>
-    <h2>Imagens dinâmicas</h2>
+    <h2>Mídias</h2>
     <p>
-        Retornado a inserção de imagens, pode-se de fazer uma melhor adequação destas ao tamanho da tela de forma dinâmica, acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/11%20-%20Imagens%20din%C3%A2micas%2C%20%C3%A1udios%20e%20v%C3%ADdeos.pdf" target="_blank" rel="external">link</a> é possível ver com mais detalhes em como utilizar as tags que possibilitam isso.
+        Acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/11%20-%20Imagens%20din%C3%A2micas%2C%20%C3%A1udios%20e%20v%C3%ADdeos.pdf" target="_blank" rel="external">link</a> é possível ver com mais detalhes em como utilizar as tags que possibilitam o uso de imagens dinâmicas, áudios e vídeos.
+    </p>
+    <h3>Imagens Dinâmicas</h3>
+    <p>
+        Retornando a inserção de imagens, pode ser feito uma melhor adequação destas ao tamanho da tela de forma dinâmica.
         Abaixo está uma imagem que ao diminuir/aumentar o tamanho do navagador ou acessando dispositivos com tamanho de display diferentes ocorrera a mudança da imagem.
     </p>
     <picture>
@@ -165,12 +169,39 @@ private void salvarProduto() {
         <source media="(max-width: 1050px)" srcset="../imagens/foto-m.png" type="image/png">
         <img src="../imagens/foto-g.png" alt="Imagen">
     </picture>
-    <hr>
-    <h2>Áudios</h2>
+    <h3>Áudios</h3>
     <p>
-        Assim como as imagens, áudios e músicas também possuem direitos autorais. Dessa forma, é possível utilizar diversos sites para encontrar bibliotecas de músicas e áudios gratuitos para uso, alguns deste são: <a href="https://freemusicarchive.org/" target="_blank" rel="external">Free Music Archive</a>, <a href="https://incompetech.com/" target="_blank" rel="external">Incompetech</a>, <a href="https://musopen.org/pt/" target="_blank" rel="external">Musopen</a>.
+        Áudios e músicas também possuem direitos autorais. Dessa forma, é possível utilizar diversos sites para encontrar bibliotecas de músicas e áudios gratuitos para uso, alguns deste são: <a href="https://freemusicarchive.org/" target="_blank" rel="external">Free Music Archive</a>, <a href="https://incompetech.com/" target="_blank" rel="external">Incompetech</a>, <a href="https://musopen.org/pt/" target="_blank" rel="external">Musopen</a>.
     </p>
     <!-- Formatos de áudios que podem ser utilizados: MP3 WAV OGG -->
-    <audio src="../audios/happymistake.mp3" controls preload="metadata"></audio>
+    <!-- Para exibir o player de audio precisa ser incluído dentro da tag o "controls" -->
+    <audio controls preload="metadata">
+        <source src="../audios/happymistake.mp3" type="audio/mp3">
+        <p>Áudio não compatível com o navegador.</p>
+    </audio>
+    <h3>Vídeos</h3>
+    <p>
+        O mesmo ocorre com vídeos, <strong>sempre</strong> é necessário verificar sobre os direitos de todo material utilizado.<br> Alguns sites em que pode ser encontrado vídeos gratuitos para uso, porém ainda é necessário verificar os direitos autorais do vídeo antes de usá-los: <a href="https://www.pexels.com/pt-br/" target="_blank" rel="external">Pexels</a>, <a href="https://pixabay.com/pt/" target="_blank" rel="external">Pixabay</a> e <a href="https://unsplash.com/pt-br" target="_blank" rel="external">Unsplash</a>.
+    </p>
+    <!-- Para exibir o player do vídeo precisa ser incluído dentro da tag o "controls" -->
+    <!-- Usando a tag video e audio dessa forma, pode ser priorizado qual arquivo será carregado primeiro, caso nenhuma tag source seja carregada, será exibido o texto informando que o formato não é compatível -->
+    <h3>Vídeo Hospedado Localmente</h3>
+    <p>
+        Vídeos hospedados localmente podem causar alto consumo de banda e problemas de compatibilidade com diferentes navegadores. Por isso, torna-se necessário hospedar o mesmo vídeo em formatos diferentes, o que aumenta ainda mais o consumo de banda. Essa situação pode resultar em lentidão no site e elevado consumo de hospedagem.
+    </p>
+    <video controls poster="../imagens/limoes-capa.png" width="800" preload="metadata">
+        <source src="../videos/meu-video.mp4" type="video/mp4">
+        <p>Vídeo não compatível com o navegador.</p>
+    </video>
+    <h3>Vídeo Hospedado Externamente</h3>
+    <p>
+        Uma das formas mais práticas e fáceis de ter um vídeo em um site é pela incorporação deste de uma hospedagem externa.<br>
+        Abaixo está sendo incorporado por um link gerado automaticamente pelo próprio YouTube. Existe a possibilidade de ser usado outras formas de incorporar vídeos. 
+    </p>
+    <h4>YouTube</h4>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/MrmJvV7mldw" title="Everyone vs the sun (part 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h4>Vimeo</h4>
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a" width="800" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <hr>
 </body>
 </html>
