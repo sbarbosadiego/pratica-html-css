@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 body {
-    background-color: #353740;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     width: 80%;
@@ -26,15 +26,15 @@ h4 {
 p {
     margin: auto;
     text-align: justify;
-    color: #ffffff;
+    color: #000000;
     font-size: 18px;
 }
 li, dd, dt {
-    color: #ffffff;
+    color: #000000;
     margin: auto;
 }
 a {
-    color: #79e0e0;
+    color: #0033da;
 }
 code {
     background-color: #000000;
