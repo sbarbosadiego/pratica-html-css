@@ -45,26 +45,26 @@
         Neste <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/08%20-%20Formatação%20de%20Textos.pdf" target="_blank" rel="external">link</a> é explicado como usar a formatação de texto de forma mais adequada, além disso é abordado sobre tags obsoletas.
         <p>
             Uma formatação interessante é o uso das tags <code>&lt;pre&gt;</code><code>&lt;/pre&gt;</code> e <code>&lt;code&gt;</code><code>&lt;/code&gt;</code>, que combinadas pode ser feito a pré-formatação de um trecho de código, como o exemplo abaixo em Java:
-        </p>
-        <pre>
-            <code>
-private void salvarProduto() {
-    modelProduto.setProdutoNome(this.jtfNomeProduto.getText().toUpperCase());
-    modelProduto.setProdutoEstoque(Integer.parseInt(this.jtfEstoque.getText()));
-    modelProduto.setProdutoValor(Double.parseDouble(this.jtfValor.getText().replace(",", ".")));
-    if (controllerProdutos.salvarProdutoController(modelProduto) > 0) {
-        JOptionPane.showMessageDialog(this, "Cadastrado com sucesso!!", "ATENÇÃO",
-                JOptionPane.INFORMATION_MESSAGE);
-        this.listarProdutos();
-        this.habilitarDesabilitarCampos(false);
-        this.limparCampos();
-    } else {
-        JOptionPane.showMessageDialog(this, "Produto não cadastrado, verifique as informações", "ERRO",
-                JOptionPane.ERROR_MESSAGE);
+        </p><br>
+            <pre>
+                <code>
+    private void salvarProduto() {
+        modelProduto.setProdutoNome(this.jtfNomeProduto.getText().toUpperCase());
+        modelProduto.setProdutoEstoque(Integer.parseInt(this.jtfEstoque.getText()));
+        modelProduto.setProdutoValor(Double.parseDouble(this.jtfValor.getText().replace(",", ".")));
+        if (controllerProdutos.salvarProdutoController(modelProduto) > 0) {
+    JOptionPane.showMessageDialog(this, "Cadastrado com sucesso!!", "ATENÇÃO",
+            JOptionPane.INFORMATION_MESSAGE);
+    this.listarProdutos();
+    this.habilitarDesabilitarCampos(false);
+    this.limparCampos();
+        } else {
+    JOptionPane.showMessageDialog(this, "Produto não cadastrado, verifique as informações", "ERRO",
+            JOptionPane.ERROR_MESSAGE);
+        }
     }
-}
-            </code>
-        </pre>
+                </code>
+            </pre>
     </p>
     <hr>
     <h2>Listas</h2>
@@ -151,10 +151,10 @@ private void salvarProduto() {
     <h3>Áudios</h3>
     <p>
         Áudios e músicas também possuem direitos autorais. Dessa forma, é possível utilizar diversos sites para encontrar bibliotecas de músicas e áudios gratuitos para uso, alguns deste são: <a href="https://freemusicarchive.org/" target="_blank" rel="external">Free Music Archive</a>, <a href="https://incompetech.com/" target="_blank" rel="external">Incompetech</a>, <a href="https://musopen.org/pt/" target="_blank" rel="external">Musopen</a>.
-    </p>
+    </p><br>
     <!-- Formatos de áudios que podem ser utilizados: MP3 WAV OGG -->
     <!-- Para exibir o player de audio precisa ser incluído dentro da tag o "controls" -->
-    <audio controls preload="metadata">
+    <audio controls preload="metadata" margin="auto">
         <source src="../audios/happymistake.mp3" type="audio/mp3">
         <p>Áudio não compatível com o navegador.</p>
     </audio>
@@ -167,7 +167,7 @@ private void salvarProduto() {
     <h3>Vídeo Hospedado Localmente</h3>
     <p>
         Vídeos hospedados localmente podem causar alto consumo de banda e problemas de compatibilidade com diferentes navegadores. Por isso, torna-se necessário hospedar o mesmo vídeo em formatos diferentes, o que aumenta ainda mais o consumo de banda. Essa situação pode resultar em lentidão no site e elevado consumo de hospedagem.
-    </p>
+    </p><br>
     <video controls poster="../imagens/limoes-capa.png" width="800" preload="metadata">
         <source src="../videos/meu-video.mp4" type="video/mp4">
         <p>Vídeo não compatível com o navegador.</p>
