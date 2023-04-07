@@ -1,16 +1,25 @@
 @charset "UTF-8";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
     background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     margin: auto;
     width: 70%;
 }
-h1, h2 {
+h1 {
+    text-align: center;
+}
+h2 {
+    background-color: #7070703a;
     text-align: center;
 }
 p {
     text-align: justify;
     font-size: 18px;
+}
+a {
+    color: #0f9cee;
 }
