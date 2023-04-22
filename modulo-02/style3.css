@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* 
+    id em HTML é convertido para # em CSS
+    class em HTML é convetido para . em CSS
+*/
+
+body {
+    background-image: linear-gradient(to right, #E7CAED, #B2EDDA);
+    background-color: #ffffff;
+    color: #000000;
+    margin: auto;
+    width: 70%;
+}
+h1 {
+    color: #00559b;
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(223, 190, 223);
+}
+h2 {
+    color: #b123ce;
+}
