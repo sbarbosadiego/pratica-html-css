@@ -15,10 +15,32 @@ body {
 h1 {
     color: #00559b;
 }
-h1#principal {
-    text-align: center;
-    background-color: rgb(223, 190, 223);
-}
-h2 {
+
+h2:hover {
     color: #b123ce;
 }
+
+h1#principal {
+    text-align: center;
+    color: #000000;
+    background-color: #dfbedf;
+}
+.intermediario {
+    color: #b123ce;
+}
+.destaque {
+    background-color: #ceeb81;
+}
+div {
+    display: inline-block;
+    background-color: #ceeb81;
+    border: 1px solid #000000;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: #B2EDDA;
+}
+
