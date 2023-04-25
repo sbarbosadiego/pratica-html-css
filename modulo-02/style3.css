@@ -3,6 +3,9 @@
 /* 
     id em HTML é convertido para # em CSS
     class em HTML é convetido para . em CSS
+    : = pseudo class
+    :: = pseudo element
+    > = children
 */
 
 body {
@@ -14,6 +17,11 @@ body {
 }
 h1 {
     color: #00559b;
+}
+
+.fundo:hover {
+    color: #b123ce;
+    background-color: #B2EDDA;
 }
 
 h2:hover {
