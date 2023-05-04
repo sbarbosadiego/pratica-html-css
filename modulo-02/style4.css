@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: aquamarine;
+    height: 50px;
+    width: 300px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+p {
+    font: 1em 'Arial', 'Sans';
+}
