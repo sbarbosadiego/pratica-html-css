@@ -27,7 +27,7 @@ h1 {
 h2:hover {
     color: #b123ce;
 }
-
+/* # Faz referência a um id */
 h1#principal {
     text-align: center;
     color: #000000;
@@ -36,6 +36,7 @@ h1#principal {
 .intermediario {
     color: #b123ce;
 }
+/* Ponto (.) faz referência a uma classe */
 .destaque {
     background-color: #ceeb81;
 }
@@ -47,7 +48,6 @@ div {
     height: 200px;
     width: 200px;
 }
-
 div:hover {
     background-color: #B2EDDA;
 }

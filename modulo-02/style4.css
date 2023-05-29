@@ -2,18 +2,67 @@
 
 h1 {
     background-color: aquamarine;
-    height: 50px;
+    
+    height: 40px;
     width: 300px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: black;
-    margin: auto;
+    /* shorthand border */
+    border: 3px solid black;
+    
     text-align: center;
+
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.roxo {
+    background-color: #b962ca;
+    
+    height: 40px;
+    width: 300px;
+    /* shorthand border */
+    border: 3px solid black;
+    
+    text-align: center;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.amarelo {
+    background-color: #edf056;
+    
+    height: 40px;
+    width: 300px;
+    /* shorthand border */
+    border: 3px solid black;
+    
+    text-align: center;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 p {
+    /* shorthand font */
     font: 1em 'Arial', 'Sans';
+    /* shorthand padding */
+    padding: 10px 10px 0px 10px;
+    margin: auto;
+    width: 600px;
+    text-align: justify;
 }
