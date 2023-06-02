@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.titulomenor {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+.texto {
+    width: 680px;
+    text-align: justify;
+    margin: 10px;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #E7CAED, #B2EDDA);
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+}
+main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0000003f;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+nav {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0000003f;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+/* > indica que quando (a) for filha de nav aplicar o estilo */
+nav > a {
+    text-decoration: none;
+    font-size: large;
+    margin-right: 20px;
+}
+footer {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}

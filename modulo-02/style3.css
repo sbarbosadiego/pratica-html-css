@@ -48,6 +48,19 @@ div {
     height: 200px;
     width: 200px;
 }
+/* Cria um seletor que acessa o id 01 criado, dessa forma é possível pesonalizar individualmente */
+div#d1 {
+    display: inline-block;
+    background-color: #70f156;
+    border: 1px solid #000000;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+/* Como agora o seletor do id 01 foi alterado é preciso criar um novo seletor para mudar a cor dele */
+div#d1:hover {
+    background-color: #B2EDDA;
+}
 div:hover {
     background-color: #B2EDDA;
 }
