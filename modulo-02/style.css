@@ -7,18 +7,29 @@ main {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #0000003f;
-    width: 800px;
+    width: 700px;
     padding: 10px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin: 20px auto;
 }
 body {
     background-image: linear-gradient(to right, #E7CAED, #B2EDDA);
     background-color: #ffffff;
     color: #000000;
     margin: auto;
-    width: 70%;
+    width: 80%;
+}
+nav {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0000003f;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+nav > a {
+    text-decoration: none;
+    font-size: large;
+    margin-right: 20px;
 }
 h1 {
     text-align: center;
@@ -36,7 +47,6 @@ a {
     color: #0f9cee;
     text-decoration: none;
 }
-
 a:visited {
     color: #f845e9;
 }
