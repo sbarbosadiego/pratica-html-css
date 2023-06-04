@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Arial', 'Sans';;
+}
+main {
+    margin: 30px auto;
+}
+nav {
+    background-color: aquamarine;
+    border: 3px solid black;
+    width: 700px;
+    padding: 10px;
+    margin: 20px auto;
+}
+nav > a {
+    margin-right: 20px;
+}
+h1 {
+    background-color: aquamarine;
+    height: 40px;
+    width: 300px;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+h2 {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+.roxo {
+    background-color: #b962ca;
+    height: 40px;
+    width: 300px;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+.amarelo {
+    background-color: #edf056;
+    height: 40px;
+    width: 300px;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+p {
+    font: 1em 'Arial', 'Sans';
+    padding: 10px 10px 0px 10px;
+    margin: auto;
+    width: 600px;
+    text-align: justify;
+}
