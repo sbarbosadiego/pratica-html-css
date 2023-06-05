@@ -8,6 +8,7 @@
     padding: 5px;
     margin: 20px auto;
 }
+
 .amarelo {
     background-color: #edf056;
     width: 500px;
@@ -16,6 +17,7 @@
     padding: 5px;
     margin: 20px auto;
 }
+
 .laranja {
     background-color: #f09b56;
     width: 500px;
@@ -24,6 +26,7 @@
     padding: 5px;
     margin: 20px auto;
 }
+
 .quadrado {
     display: inline-block;
     background-color: #ceeb81;
@@ -32,46 +35,71 @@
     height: 200px;
     width: 200px;
 }
+
+.bola {
+    display: inline-block;
+    background-color: #ceeb81;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
 * {
     font-family: 'Arial', 'Sans';;
 }
+
 main {
     margin: 30px auto;
 }
+
 div {
     width: 650px;
     text-align: center;
     margin: auto;
     padding: 5px;
 }
+
 nav {
     background-color: #7fffd4;
     border: 2px solid #000000;
     width: 700px;
     padding: 10px;
     margin: 20px auto;
+    text-align: center;
+    font-size: larger;
 }
+
 nav > a {
     margin-right: 20px;
+    text-decoration: none;
 }
+
+nav > a:visited {
+    color: #000000;
+}
+
 article {
     width: 650px;
     padding: 1px 20px 20px 10px;
     margin: 20px auto;
     border: 2px solid #000000;
 }
+
 footer {
     border: 2px solid #000000;
     background-color: #7fffd4;
     width: 300px;
     margin: auto;
 }
+
 footer > p {
     text-align: center;
     width: 300px;
     padding: 7px;
     margin: auto;
 }
+
 h1 {
     background-color: #7fffd4;
     height: 40px;
@@ -81,25 +109,31 @@ h1 {
     padding: 10px;
     margin: 20px auto;
 }
+
 h1 > a {
     text-decoration: none;
 }
+
 h1 > a:visited {
     color: #000000;
 }
+
 h1 > a:hover {
     color: #5e5e5e;
 }
+
 h2 {
     width: 300px;
     padding: 10px;
     text-align: center;
     margin: 5px auto;
 }
+
 p {
     font: 1em 'Arial', 'Sans';
     padding: 10px 10px 0px 10px;
     margin: auto;
     width: 600px;
     text-align: justify;
+    text-indent: 20px;
 }
