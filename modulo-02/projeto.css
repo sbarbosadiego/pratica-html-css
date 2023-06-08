@@ -1,2 +1,92 @@
 @charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(../modulo-02/Desafio/fontes/idroid.otf);
+}
+
+* {
+    font: 1em "Arial", "Helvetica", "Sans";
+}
+
+.tituloandroid {
+    font: 2em 'idroid';
+    color: #063d1e;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.alinha {
+    text-align: center;
+}
+
+body {
+    background-color: #83e1ad;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, #063d1e, #3ddc84);
+    height: 200px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+    font: 2em 'Sans';
+}
+
+header > p {
+    color: white;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    width: 850px;
+    margin: 0px auto;
+}
+
+nav {
+    margin-left: 0%;
+}
+
+article {
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+
+aside {
+    width: 790px;
+    margin: auto;
+    background-color: #83e1ad;
+    padding: 5px 0px;
+}
+
+aside > p {
+    text-align: justify;
+    width: 750px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+footer {
+    background-color: #063d1e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
 
