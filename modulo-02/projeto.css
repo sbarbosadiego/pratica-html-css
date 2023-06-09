@@ -21,7 +21,8 @@
     font: 20px 'idroid';
     color: #063d1e;
     background-image: linear-gradient(to right, #3ddc8563, white);
-    width: 700px;
+    min-width: 400px;
+    max-width: 800px;
     margin-left: 25px;
 }
 
@@ -47,7 +48,9 @@ body {
 
 header {
     background-image: linear-gradient(to top, #063d1e, #3ddc84);
-    height: 200px;
+    padding: 0px 0px 10px 0px;
+    max-height: 300px;
+    box-shadow: 10px 10px 10px #0000003f;
 }
 
 header > h1 {
@@ -73,32 +76,32 @@ nav > a {
 
 main {
     background-color: white;
-    width: 850px;
+    min-width: 400px;
+    max-width: 800px;
     margin: auto;
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-radius: 0px 0px 10px 10px;
+    box-shadow: 10px 10px 10px #0000003f;
 }
 
 nav {
     margin-left: 1%;
 }
 
-article {
-    width: 850px;
+main > article {
     margin: auto;
     text-align: justify;
 }
 
 article > p {
-    width: 800px;
     margin: auto;
-    padding: 5px 0px;
+    padding: 5px 20px;
     text-indent: 30px;
 }
 
 aside {
-    width: 790px;
+    max-width: 750px;
     margin: auto;
     background-color: #c5ebd6;
     padding-bottom: 10px;
@@ -115,10 +118,9 @@ aside > h3 {
 
 aside > p {
     text-align: justify;
-    width: 750px;
     margin: auto;
     text-indent: 30px;
-    padding-top: 5px;
+    padding: 5px 20px;
 }
 
 ul {
