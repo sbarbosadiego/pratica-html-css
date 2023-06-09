@@ -6,17 +6,38 @@
 
 * {
     font: 1em "Arial", "Helvetica", "Sans";
+    color: black;
 }
 
 .tituloandroid {
     font: 2em 'idroid';
     color: #063d1e;
     margin-top: 0px;
-    padding: 10px 0px;
+    margin-bottom: 10px;
+    padding: 20px 21px 0px 25px;
+}
+
+.tituloandroidmenor {
+    font: 20px 'idroid';
+    color: #063d1e;
+    background-image: linear-gradient(to right, #3ddc8563, white);
+    width: 700px;
+    margin-left: 25px;
 }
 
 .alinha {
-    text-align: center;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#androidvideo {
+    background-color: #063d1e;
+    padding: 15px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 body {
@@ -34,46 +55,70 @@ header > h1 {
     text-align: center;
     margin: 0px;
     padding: 20px 0px;
-    font: 2em 'Sans';
+    font: 2em 'Bebas Neue';
 }
 
 header > p {
     color: white;
     text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Helvetica';
 }
 
 nav > a {
     color: white;
     text-decoration: none;
+    padding-right: 15px;
 }
 
 main {
     background-color: white;
     width: 850px;
-    margin: 0px auto;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 nav {
-    margin-left: 0%;
+    margin-left: 1%;
 }
 
 article {
-    width: 800px;
+    width: 850px;
     margin: auto;
     text-align: justify;
+}
+
+article > p {
+    width: 800px;
+    margin: auto;
+    padding: 5px 0px;
+    text-indent: 30px;
 }
 
 aside {
     width: 790px;
     margin: auto;
-    background-color: #83e1ad;
-    padding: 5px 0px;
+    background-color: #c5ebd6;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+aside > h3 {
+    background-color: #2fa866;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px 10px 0px 0px;
 }
 
 aside > p {
     text-align: justify;
     width: 750px;
     margin: auto;
+    text-indent: 30px;
+    padding-top: 5px;
 }
 
 ul {
