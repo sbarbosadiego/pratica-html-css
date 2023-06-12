@@ -58,7 +58,7 @@ main > article {
     border: 2px solid #000000;
 }
 
-main > p {
+article > p {
     font: 1em 'Arial', 'Sans';
     padding: 10px 10px 0px 10px;
     margin: auto;
