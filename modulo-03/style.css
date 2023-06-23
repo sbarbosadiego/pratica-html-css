@@ -4,4 +4,58 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-image: url(imagens/wallpaper001.jpg);
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+div.quadrado {
+    border: 3px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(77, 77, 77);
+    width: 300px;
+    height: 300px;
+}
+
+/* Primeira configuração de fundo, usando apenas uma cor sólida com */
+div#q1 {
+    background-color: aquamarine;
+}
+
+/* Segunda configuração, usando efeito de gradiência */
+div#q2 {
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+/* Terceira configuração, usando um arquivo de imagem como fundo */
+div#q3 {
+    background-image: url('imagens/pattern003.png');
+}
+
+footer {
+    text-align: center;
+}
 
