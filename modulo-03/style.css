@@ -31,6 +31,15 @@ main h2 {
     text-align: center;
 }
 
+main p {
+    text-align: justify;
+    font-size: 17px;
+    text-indent: 30px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 div.quadrado {
     border: 3px solid black;
     display: inline-block;
@@ -38,6 +47,11 @@ div.quadrado {
     background-color: rgb(77, 77, 77);
     width: 300px;
     height: 300px;
+}
+
+div#q {
+    max-width: 930px;
+    margin: auto;
 }
 
 /* Primeira configuração de fundo, usando apenas uma cor sólida com */
