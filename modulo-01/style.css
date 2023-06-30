@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+main {
+    margin-bottom: 20px;
+}
 body {
     background-color: #ffffff;
     color: #000000;
@@ -47,6 +50,7 @@ picture {
 }
 pre {
     background-color: #000000;
-    width: 56%;
+    max-width: 56%;
     margin: auto;
 }
+

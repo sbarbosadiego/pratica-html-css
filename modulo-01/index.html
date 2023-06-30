@@ -8,46 +8,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Est dolorem sint eum fugiat iste.</h1>
-    <p>
-        Caso não esteja usando o VSCode, pode ser usado um gerador de <strong>Lorem Ipsum</strong>, clicando no <a href="https://www.loremipzum.com/pt/gerador-de-texto" target="_blank" rel="external">link</a> é possível acessar o mesmo.<br>
-        Lorem ipsum dolor sit amet. Quo officia voluptas eos voluptatem fuga eos animi quas ex galisum porro non necessitatibus facere eos perferendis minima. Nada com nadum.<br> Aut repudiandae sapiente sed perspiciatis nostrum qui mollitia pariatur est voluptatem earum! Eos voluptates libero est ducimus adipisci ea ullam tempora non quidem velit? Et vero dolorem qui quidem molestiae est temporibus suscipit ea nobis animi.
-    </p>
-    <h2>Exibição de Tags</h2>
-    <p>
-        Qui inventore culpa et repudiandae explicabonon alias non omnis mollitia ea quis tenetur. <br>Qui quis tempora <strong>Aut molestiae vel nobis facilis ut sunt eligendi sit odit harum</strong> est possimus corrupti aut officiis quae! Eum adipisci repellendus Qui galisum qui quis impedit et galisum expedita in rerum ipsam ex incidunt blanditiis et iste nulla.
-    </p>
-    <hr>
-    <h2>Uso de Caracteres Especiais</h2>
-    <p>
-        Inserção de menor que e maior que &lt;/p&gt;, possibilitando a inserção de "tags" no texto.<br>
-        Também é possível fazer a inserção de emojis e símbolos especiais, para usar emojis basta acessar o <a href="https://emojipedia.org" target="_blank" rel="external">emojipedia</a> localizar o codepoint do emoji e fazer a inserção do deste após digitar <strong><code>"&#x"</code></strong>, dessa forma o mesmo será exibido <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/05%20-%20Caracteres%2C%20parágrafos%20e%20quebras%20de%20linha.pdf"target="_blank" rel="external">&#x1F986</a>(Não clica no pato).<br>
-        Já os caracteres especiais conhecidos geralmente como <strong>HTML Entities</strong>, este usando uma IDE como o VSCode já sugeri alguns, mas pesquisando a tabela destes fica mais fácil, alguns exemplos: &reg; &copy; &Delta;
-    </p>
-    <hr>
-    <h2>Uso de Imagens e Favicon</h2>
-    <p>
-        É possível utilizar imagens dentro de arquivos HTML, porém é importante verificar se o uso da mesma é liberado, neste <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/06%20-%20Imagens%20e%20Favicon.pdf"target="_blank" rel="external">repositório</a> há uma explicação sobre o uso de imagens e direitos reservados.<br>
-        Existem diversos sites que disponibilizam imagens para uso de forma gratuita, e alguns é pago uma espécice de assinatura que permite o uso da image, entretato é sempre bom verificar até em sites gratuitos sobre a permissão do uso da imagem, alguns sites com imagens gratuitas: <a href="https://www.pexels.com/pt-br/" target="_blank" rel="external">Pexels</a>, <a href="https://pixabay.com/pt/" target="_blank" rel="external">Pixabay</a>, <a href="https://br.freepik.com" target="_blank" rel="external">Freepik</a> e <a href="https://unsplash.com/pt-br" target="_blank" rel="external">Unsplash</a>.
-        <p style="text-align: left;">
-            Basicamente a inserção de uma imagem e dimensionamento será através da seguinte tag:<br>
-            <strong><code>&lt;img src</strong>="<em>local do arquivo</em>" <strong>alt</strong>="<em>texto alternativo</em>" <strong>width</strong>="300 <em>(tamanho em pixels)</em>"<strong>&gt;</code></strong>
-        </p>
+    <main>
+        <h1>Est dolorem sint eum fugiat iste.</h1>
         <p>
-            Em caso de dúvidas em como fazer o uso de imagens com <strong> <abbr title="HyperText Markup Language">HTML</abbr></strong> basta clicar no <a href="https://www.homehost.com.br/blog/tutoriais/html-img/#:~:text=Para%20inserir%20uma%20imagem%20no,da%20imagem%20que%20será%20inserida." target="_blank" rel="external">link</a>.
+            Caso não esteja usando o VSCode, pode ser usado um gerador de <strong>Lorem Ipsum</strong>, clicando no <a href="https://www.loremipzum.com/pt/gerador-de-texto" target="_blank" rel="external">link</a> é possível acessar o mesmo.<br>
+            Lorem ipsum dolor sit amet. Quo officia voluptas eos voluptatem fuga eos animi quas ex galisum porro non necessitatibus facere eos perferendis minima. Nada com nadum.<br> Aut repudiandae sapiente sed perspiciatis nostrum qui mollitia pariatur est voluptatem earum! Eos voluptates libero est ducimus adipisci ea ullam tempora non quidem velit? Et vero dolorem qui quidem molestiae est temporibus suscipit ea nobis animi.
         </p>
-        <img src="../imagens/img1.jpeg" alt="Teste" width="750">
-    </p>
-    <hr>
-    <h2>Hierarquia de Títulos e Formatação de Textos</h2>
-    <p>
-        Acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/07%20-%20Hierarquia%20de%20títulos.pdf" target="_blank" rel="external">link</a>, há uma explicação mais detalhada sobre o uso de títulos e suas hierarquias.<br>
-        Neste <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/08%20-%20Formatação%20de%20Textos.pdf" target="_blank" rel="external">link</a> é explicado como usar a formatação de texto de forma mais adequada, além disso é abordado sobre tags obsoletas.
-        <p>
-            Uma formatação interessante é o uso das tags <code>&lt;pre&gt;</code><code>&lt;/pre&gt;</code> e <code>&lt;code&gt;</code><code>&lt;/code&gt;</code>, que combinadas pode ser feito a pré-formatação de um trecho de código, como o exemplo abaixo em Java:
-        </p><br>
-            <pre>
-                <code>
+        <article>
+            <h2>Exibição de Tags</h2>
+            <p>
+                Qui inventore culpa et repudiandae explicabonon alias non omnis mollitia ea quis tenetur. <br>Qui quis tempora <strong>Aut molestiae vel nobis facilis ut sunt eligendi sit odit harum</strong> est possimus corrupti aut officiis quae! Eum adipisci repellendus Qui galisum qui quis impedit et galisum expedita in rerum ipsam ex incidunt blanditiis et iste nulla.
+            </p>
+        </article>
+        <hr>
+        <article>
+            <h2>Uso de Caracteres Especiais</h2>
+            <p>
+                Inserção de menor que e maior que &lt;/p&gt;, possibilitando a inserção de "tags" no texto.<br>
+                Também é possível fazer a inserção de emojis e símbolos especiais, para usar emojis basta acessar o <a href="https://emojipedia.org" target="_blank" rel="external">emojipedia</a> localizar o codepoint do emoji e fazer a inserção do deste após digitar <strong><code>"&#x"</code></strong>, dessa forma o mesmo será exibido <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/05%20-%20Caracteres%2C%20parágrafos%20e%20quebras%20de%20linha.pdf"target="_blank" rel="external">&#x1F986</a>(Não clica no pato).<br>
+                Já os caracteres especiais conhecidos geralmente como <strong>HTML Entities</strong>, este usando uma IDE como o VSCode já sugeri alguns, mas pesquisando a tabela destes fica mais fácil, alguns exemplos: &reg; &copy; &Delta;
+            </p>
+        </article>
+        <hr>
+        <article>
+            <h2>Uso de Imagens e Favicon</h2>
+            <p>
+                É possível utilizar imagens dentro de arquivos HTML, porém é importante verificar se o uso da mesma é liberado, neste <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/06%20-%20Imagens%20e%20Favicon.pdf"target="_blank" rel="external">repositório</a> há uma explicação sobre o uso de imagens e direitos reservados.<br>
+                Existem diversos sites que disponibilizam imagens para uso de forma gratuita, e alguns é pago uma espécice de assinatura que permite o uso da image, entretato é sempre bom verificar até em sites gratuitos sobre a permissão do uso da imagem, alguns sites com imagens gratuitas: <a href="https://www.pexels.com/pt-br/" target="_blank" rel="external">Pexels</a>, <a href="https://pixabay.com/pt/" target="_blank" rel="external">Pixabay</a>, <a href="https://br.freepik.com" target="_blank" rel="external">Freepik</a> e <a href="https://unsplash.com/pt-br" target="_blank" rel="external">Unsplash</a>.
+                <p style="text-align: left;">
+                    Basicamente a inserção de uma imagem e dimensionamento será através da seguinte tag:<br>
+                    <strong><code>&lt;img src</strong>="<em>local do arquivo</em>" <strong>alt</strong>="<em>texto alternativo</em>" <strong>width</strong>="300 <em>(tamanho em pixels)</em>"<strong>&gt;</code></strong>
+                </p>
+                <p>
+                    Em caso de dúvidas em como fazer o uso de imagens com <strong> <abbr title="HyperText Markup Language">HTML</abbr></strong> basta clicar no <a href="https://www.homehost.com.br/blog/tutoriais/html-img/#:~:text=Para%20inserir%20uma%20imagem%20no,da%20imagem%20que%20será%20inserida." target="_blank" rel="external">link</a>.
+                </p>
+                <img src="../imagens/img1.jpeg" alt="Teste" width="750">
+            </p>
+        </article>
+        <hr>
+        <article>
+            <h2>Hierarquia de Títulos e Formatação de Textos</h2>
+            <p>
+                Acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/07%20-%20Hierarquia%20de%20títulos.pdf" target="_blank" rel="external">link</a>, há uma explicação mais detalhada sobre o uso de títulos e suas hierarquias.<br>
+                Neste <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/08%20-%20Formatação%20de%20Textos.pdf" target="_blank" rel="external">link</a> é explicado como usar a formatação de texto de forma mais adequada, além disso é abordado sobre tags obsoletas.
+                <p>
+                    Uma formatação interessante é o uso das tags <code>&lt;pre&gt;</code><code>&lt;/pre&gt;</code> e <code>&lt;code&gt;</code><code>&lt;/code&gt;</code>, que combinadas pode ser feito a pré-formatação de um trecho de código, como o exemplo abaixo em Java:
+                </p><br>
+                    <pre>
+                        <code>
     private void salvarProduto() {
         modelProduto.setProdutoNome(this.jtfNomeProduto.getText().toUpperCase());
         modelProduto.setProdutoEstoque(Integer.parseInt(this.jtfEstoque.getText()));
@@ -63,132 +71,142 @@
             JOptionPane.ERROR_MESSAGE);
         }
     }
-                </code>
-            </pre>
-    </p>
-    <hr>
-    <h2>Listas</h2>
-    <p>
-        É possível criar listas ordenadas e não ordenadas, clicando no <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/09%20-%20Listas%20HTML.pdf" target="_blank" rel="external">link</a> será redirecinado para o material que explica como fazer o uso destas.
-    </p>
-    <h3>Lista Ordenada</h3>
-    <p>
-        Uma lista ordenada pode ser personalizado o tipo de enumerador e ordem de início.
-    </p>
-    <ol type="1" start="1">
-        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
-        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
-        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
-        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
-        <li>Módulo - HTML5 e CSS3 (Ainda não disponível)</li>
-    </ol>
-    <h3>Lista não Ordenada</h3>
-    <p>
-        Uma lista não ordenada também pode ser personalizado, porém essa não tem uma ordem a ser seguida como uma lista ordenada.
-    </p>
-    <ul type="disc">
-        <li>JoJo no Kimyou na Bouken</li>
-        <li>Code Geass</li>
-        <li>Horimiya</li>
-        <li>Fullmetal Alchemist: Brotherhood</li>
-    </ul>
-    <h3>Combinação de Listas</h3>
-    <p>
-        É possível fazer a combinação de listas, é feito a inserção de uma tag dentro da outra, ficando da forma abaixo:
-    </p>
-    <ol type="1" start="1">
-        <li>Cursos de Banco de Dados
+                        </code>
+                    </pre>
+            </p>
+        </article>
+        <hr>
+        <article>
+            <h2>Listas</h2>
+            <p>
+                É possível criar listas ordenadas e não ordenadas, clicando no <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/09%20-%20Listas%20HTML.pdf" target="_blank" rel="external">link</a> será redirecinado para o material que explica como fazer o uso destas.
+            </p>
+            <h3>Lista Ordenada</h3>
+            <p>
+                Uma lista ordenada pode ser personalizado o tipo de enumerador e ordem de início.
+            </p>
+            <ol type="1" start="1">
+                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
+                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
+                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
+                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT" target="_blank" rel="external"><li>Módulo - HTML5 e CSS3</li></a>
+                <li>Módulo - HTML5 e CSS3 (Ainda não disponível)</li>
+            </ol>
+            <h3>Lista não Ordenada</h3>
+            <p>
+                Uma lista não ordenada também pode ser personalizado, porém essa não tem uma ordem a ser seguida como uma lista ordenada.
+            </p>
             <ul type="disc">
-                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r" target="_blank" rel="external"><li>MySQL</li></a>
-                <a href="https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/" target="_blank" rel="external"><li>Banco de Dados e SQL</li></a>
+                <li>JoJo no Kimyou na Bouken</li>
+                <li>Code Geass</li>
+                <li>Horimiya</li>
+                <li>Fullmetal Alchemist: Brotherhood</li>
             </ul>
-        </li>
-        <li>Cursos de Programação
-            <ul type="disc">
-                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV" target="_blank" rel="external"><li>Lógica de Programação</li></a>
-                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR" target="_blank" rel="external"><li>Java Básico</li></a>
-                <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY" target="_blank" rel="external"><li>Orientação a Objetos</li></a>
-            </ul>
-        </li>
-    </ol>
-    <h3>Lista de Definição</h3>
-    <p>
-        Por último uma lista de definição, semelhante a um glossário:
-    </p>
-    <dt>
-        <dt><Strong>Saudade:</Strong></dt>
-        <dd>Sentimento melancólico devido ao afastamento de uma pessoa, uma coisa ou um lugar, ou à ausência de experiências prazerosas já vividas.</dd>
-    </dt>
-    <hr>
-    <h2>Links e Âncoras</h2>
-    <p>
-        No material em PDF é explicado como é criado os hyperlinks e a melhor forma de utilizá-los, acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Ligações%20em%20toda%20parte.pdf" target="_blank" rel="external">link</a> pode ser conferido o mesmo.
-    </p>
-    <h3>Link interno</h3>
-    <p>
-        Pode ser criado links para redirecionamento internos, ou seja é criado outras páginas para a navegação no HTML, clicando no <a href="pag02.html" target="_self" rel="next">link</a> será redirecinado para outra página de arquivos.
-    </p>
-    <h3>Link Para Download</h3>
-    <!-- Dependendo do navagador é feito o download, mas não é exibido que o arquivo já foi baixado -->
-    <p>
-        Neste <a href="https://www.visualdicas.com.br/programacao/html/80-como-criar-um-link-de-download-usando-apenas-o-html5" target="_blank" rel="external">artigo</a> é ensinado como criar links para download, porém o comportamento pode variar para alguns navegadores, segue um exemplo no link de <a href="../arquivos/pdf/Operadores-Em-Java-Tabela-De-Precedencia.rar" download="Operadores-Em-Java-Tabela-De-Precedencia">download</a>, será baixado um arquivo .rar com um PDF sobre Operadores e Tabela de Precedência em Java.
-    </p>
-    <hr>
-    <h2>Mídias</h2>
-    <p>
-        Acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/11%20-%20Imagens%20din%C3%A2micas%2C%20%C3%A1udios%20e%20v%C3%ADdeos.pdf" target="_blank" rel="external">link</a> é possível ver com mais detalhes em como utilizar as tags que possibilitam o uso de imagens dinâmicas, áudios e vídeos.
-    </p>
-    <h3>Imagens Dinâmicas</h3>
-    <p>
-        Retornando a inserção de imagens, pode ser feito uma melhor adequação destas ao tamanho da tela de forma dinâmica.
-        Abaixo está uma imagem que ao diminuir/aumentar o tamanho do navagador ou acessando dispositivos com tamanho de display diferentes ocorrera a mudança da imagem.
-    </p>
-    <picture>
-        <source media="(max-width: 750px)" srcset="../imagens/foto-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="../imagens/foto-m.png" type="image/png">
-        <img src="../imagens/foto-g.png" alt="Imagen">
-    </picture>
-    <h3>Áudios</h3>
-    <p>
-        Áudios e músicas também possuem direitos autorais. Dessa forma, é possível utilizar diversos sites para encontrar bibliotecas de músicas e áudios gratuitos para uso, alguns deste são: <a href="https://freemusicarchive.org/" target="_blank" rel="external">Free Music Archive</a>, <a href="https://incompetech.com/" target="_blank" rel="external">Incompetech</a>, <a href="https://musopen.org/pt/" target="_blank" rel="external">Musopen</a>.
-    </p><br>
-    <!-- Formatos de áudios que podem ser utilizados: MP3 WAV OGG -->
-    <!-- Para exibir o player de audio precisa ser incluído dentro da tag o "controls" -->
-    <audio controls preload="metadata" margin="auto">
-        <source src="../audios/happymistake.mp3" type="audio/mp3">
-        <p>Áudio não compatível com o navegador.</p>
-    </audio>
-    <h3>Vídeos</h3>
-    <p>
-        O mesmo ocorre com vídeos, <strong>sempre</strong> é necessário verificar sobre os direitos de todo material utilizado.<br> Alguns sites em que pode ser encontrado vídeos gratuitos para uso, porém ainda é necessário verificar os direitos autorais do vídeo antes de usá-los: <a href="https://www.pexels.com/pt-br/" target="_blank" rel="external">Pexels</a>, <a href="https://pixabay.com/pt/" target="_blank" rel="external">Pixabay</a> e <a href="https://unsplash.com/pt-br" target="_blank" rel="external">Unsplash</a>.
-    </p>
-    <!-- Para exibir o player do vídeo precisa ser incluído dentro da tag o "controls" -->
-    <!-- Usando a tag video e audio dessa forma, pode ser priorizado qual arquivo será carregado primeiro, caso nenhuma tag source seja carregada, será exibido o texto informando que o formato não é compatível -->
-    <h3>Vídeo Hospedado Localmente</h3>
-    <p>
-        Vídeos hospedados localmente podem causar alto consumo de banda e problemas de compatibilidade com diferentes navegadores. Por isso, torna-se necessário hospedar o mesmo vídeo em formatos diferentes, o que aumenta ainda mais o consumo de banda. Essa situação pode resultar em lentidão no site e elevado consumo de hospedagem.
-    </p><br>
-    <video controls poster="../imagens/limoes-capa.png" width="800" preload="metadata">
-        <source src="../videos/meu-video.mp4" type="video/mp4">
-        <p>Vídeo não compatível com o navegador.</p>
-    </video>
-    <h3>Vídeo Hospedado Externamente</h3>
-    <p>
-        Uma das formas mais práticas e fáceis de ter um vídeo em um site é pela incorporação deste de uma hospedagem externa.<br>
-        Abaixo está sendo incorporado por um link gerado automaticamente pelo próprio YouTube. Existe a possibilidade de ser usado outras formas de incorporar vídeos. 
-    </p>
-    <h4>YouTube</h4>
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/MrmJvV7mldw" title="Everyone vs the sun (part 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <h4>Vimeo</h4>
-    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a" width="800" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-    <hr>
-    <h2>Introdução ao CSS</h2>
-    <p>
-        <strong>Cascading Style Sheets</strong> CSS são responsáveis por personalizar e dar uma aparência única a um site. Ao clicar no <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/12%20-%20Trabalhando%20com%20estilos.pdf" target="_blank" rel="external">link</a>, é possível acessar o material que informa sobre os diferentes usos do CSS, seja através do <strong>Inline Style</strong>, <strong>Internal Style</strong> e <strong>External Style</strong>.
-    </p>
-    <h2>Módulo 2</h2>
-    <p>
-        Acesso a página criada no <a href="../modulo-02/index.html" target="_self" rel="next">módulo 2</a>
-    </p>
+            <h3>Combinação de Listas</h3>
+            <p>
+                É possível fazer a combinação de listas, é feito a inserção de uma tag dentro da outra, ficando da forma abaixo:
+            </p>
+            <ol type="1" start="1">
+                <li>Cursos de Banco de Dados
+                    <ul type="disc">
+                        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r" target="_blank" rel="external"><li>MySQL</li></a>
+                        <a href="https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/" target="_blank" rel="external"><li>Banco de Dados e SQL</li></a>
+                    </ul>
+                </li>
+                <li>Cursos de Programação
+                    <ul type="disc">
+                        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV" target="_blank" rel="external"><li>Lógica de Programação</li></a>
+                        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR" target="_blank" rel="external"><li>Java Básico</li></a>
+                        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY" target="_blank" rel="external"><li>Orientação a Objetos</li></a>
+                    </ul>
+                </li>
+            </ol>
+            <h3>Lista de Definição</h3>
+            <p>
+                Por último uma lista de definição, semelhante a um glossário:
+            </p>
+            <dt>
+                <dt><Strong>Saudade:</Strong></dt>
+                <dd>Sentimento melancólico devido ao afastamento de uma pessoa, uma coisa ou um lugar, ou à ausência de experiências prazerosas já vividas.</dd>
+            </dt>
+        </article>
+        <hr>
+        <article>
+            <h2>Links e Âncoras</h2>
+            <p>
+                No material em PDF é explicado como é criado os hyperlinks e a melhor forma de utilizá-los, acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Ligações%20em%20toda%20parte.pdf" target="_blank" rel="external">link</a> pode ser conferido o mesmo.
+            </p>
+            <h3>Link interno</h3>
+            <p>
+                Pode ser criado links para redirecionamento internos, ou seja é criado outras páginas para a navegação no HTML, clicando no <a href="pag02.html" target="_self" rel="next">link</a> será redirecinado para outra página de arquivos.
+            </p>
+            <h3>Link Para Download</h3>
+            <!-- Dependendo do navagador é feito o download, mas não é exibido que o arquivo já foi baixado -->
+            <p>
+                Neste <a href="https://www.visualdicas.com.br/programacao/html/80-como-criar-um-link-de-download-usando-apenas-o-html5" target="_blank" rel="external">artigo</a> é ensinado como criar links para download, porém o comportamento pode variar para alguns navegadores, segue um exemplo no link de <a href="../arquivos/pdf/Operadores-Em-Java-Tabela-De-Precedencia.rar" download="Operadores-Em-Java-Tabela-De-Precedencia">download</a>, será baixado um arquivo .rar com um PDF sobre Operadores e Tabela de Precedência em Java.
+            </p>
+        </article>
+        <hr>
+        <article>
+            <h2>Mídias</h2>
+            <p>
+                Acessando o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/11%20-%20Imagens%20din%C3%A2micas%2C%20%C3%A1udios%20e%20v%C3%ADdeos.pdf" target="_blank" rel="external">link</a> é possível ver com mais detalhes em como utilizar as tags que possibilitam o uso de imagens dinâmicas, áudios e vídeos.
+            </p>
+            <h3>Imagens Dinâmicas</h3>
+            <p>
+                Retornando a inserção de imagens, pode ser feito uma melhor adequação destas ao tamanho da tela de forma dinâmica.
+                Abaixo está uma imagem que ao diminuir/aumentar o tamanho do navagador ou acessando dispositivos com tamanho de display diferentes ocorrera a mudança da imagem.
+            </p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="../imagens/foto-p.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="../imagens/foto-m.png" type="image/png">
+                <img src="../imagens/foto-g.png" alt="Imagen">
+            </picture>
+            <h3>Áudios</h3>
+            <p>
+                Áudios e músicas também possuem direitos autorais. Dessa forma, é possível utilizar diversos sites para encontrar bibliotecas de músicas e áudios gratuitos para uso, alguns deste são: <a href="https://freemusicarchive.org/" target="_blank" rel="external">Free Music Archive</a>, <a href="https://incompetech.com/" target="_blank" rel="external">Incompetech</a>, <a href="https://musopen.org/pt/" target="_blank" rel="external">Musopen</a>.
+            </p><br>
+            <!-- Formatos de áudios que podem ser utilizados: MP3 WAV OGG -->
+            <!-- Para exibir o player de audio precisa ser incluído dentro da tag o "controls" -->
+            <audio controls preload="metadata" margin="auto">
+                <source src="../audios/happymistake.mp3" type="audio/mp3">
+                <p>Áudio não compatível com o navegador.</p>
+            </audio>
+            <h3>Vídeos</h3>
+            <p>
+                O mesmo ocorre com vídeos, <strong>sempre</strong> é necessário verificar sobre os direitos de todo material utilizado.<br> Alguns sites em que pode ser encontrado vídeos gratuitos para uso, porém ainda é necessário verificar os direitos autorais do vídeo antes de usá-los: <a href="https://www.pexels.com/pt-br/" target="_blank" rel="external">Pexels</a>, <a href="https://pixabay.com/pt/" target="_blank" rel="external">Pixabay</a> e <a href="https://unsplash.com/pt-br" target="_blank" rel="external">Unsplash</a>.
+            </p>
+            <!-- Para exibir o player do vídeo precisa ser incluído dentro da tag o "controls" -->
+            <!-- Usando a tag video e audio dessa forma, pode ser priorizado qual arquivo será carregado primeiro, caso nenhuma tag source seja carregada, será exibido o texto informando que o formato não é compatível -->
+            <h3>Vídeo Hospedado Localmente</h3>
+            <p>
+                Vídeos hospedados localmente podem causar alto consumo de banda e problemas de compatibilidade com diferentes navegadores. Por isso, torna-se necessário hospedar o mesmo vídeo em formatos diferentes, o que aumenta ainda mais o consumo de banda. Essa situação pode resultar em lentidão no site e elevado consumo de hospedagem.
+            </p><br>
+            <video controls poster="../imagens/limoes-capa.png" width="800" preload="metadata">
+                <source src="../videos/meu-video.mp4" type="video/mp4">
+                <p>Vídeo não compatível com o navegador.</p>
+            </video>
+            <h3>Vídeo Hospedado Externamente</h3>
+            <p>
+                Uma das formas mais práticas e fáceis de ter um vídeo em um site é pela incorporação deste de uma hospedagem externa.<br>
+                Abaixo está sendo incorporado por um link gerado automaticamente pelo próprio YouTube. Existe a possibilidade de ser usado outras formas de incorporar vídeos.
+            </p>
+            <h4>YouTube</h4>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/MrmJvV7mldw" title="Everyone vs the sun (part 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>Vimeo</h4>
+            <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a" width="800" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </article>
+        <hr>
+        <article>
+            <h2>Introdução ao CSS</h2>
+            <p>
+                <strong>Cascading Style Sheets</strong> CSS são responsáveis por personalizar e dar uma aparência única a um site. Ao clicar no <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/12%20-%20Trabalhando%20com%20estilos.pdf" target="_blank" rel="external">link</a>, é possível acessar o material que informa sobre os diferentes usos do CSS, seja através do <strong>Inline Style</strong>, <strong>Internal Style</strong> e <strong>External Style</strong>.
+            </p>
+            <h2>Módulo 2</h2>
+            <p>
+                Acesso a página criada no <a href="../modulo-02/index.html" target="_self" rel="next">módulo 2</a>
+            </p>
+        </article>
+    </main>
 </body>
 </html>
