@@ -24,7 +24,11 @@ header > a:hover {
 }
 
 body {
-    background-image: url(imagens/wallpaper001.jpg);
+    height: 100vh;
+    background-image: url(imagens/wallpaper007.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -89,6 +93,11 @@ main ul {
 
 main li > a {
     text-decoration: none;
+}
+
+main h1 {
+    text-align: center;
+    padding: 10px;
 }
 
 div#q {

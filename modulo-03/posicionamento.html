@@ -5,6 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagens/html.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        div.bloco {
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 10px;
+            background-image: url('imagens/wallpaper002.jpg');
+        }
+        div.blocoprincipal {
+            height: 850px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        main {
+            padding-top: 20px;
+        }
+        h2 {
+            color: rgb(243, 166, 0);
+        }
+        div#qp1 {
+            background-position: left top;
+        }
+        div#qp2 {
+            background-position: left center;
+        }
+        div#qp3 {
+            background-position: right bottom;
+        }
+        div#qp4 {
+            background-position: center center;
+        }
+        div#qp5 {
+            background-image: url(imagens/wallpaper003.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+    </style>
     <title>Posicionamento</title>
 </head>
 <body>
@@ -21,6 +59,22 @@
         <a href="https://www.cursoemvideo.com/" target="_blank" rel="external">Curso Em Vídeo</a>
         <a href="https://www.estudonauta.com/" target="_blank" rel="external">Estudonauta</a>
     </nav>
-    
+    <main>
+        <div class="bloco" id="qp1">
+            <h2>LEFT TOP</h2>
+        </div>
+        <div class="bloco" id="qp2">
+            <h2>LEFT CENTER</h2>
+        </div>
+        <div class="bloco" id="qp3">
+            <h2>RIGHT BOTTOM</h2>
+        </div>
+        <div class="bloco" id="qp4">
+            <h2>CENTER CENTER</h2>
+        </div>
+        <div class="blocoprincipal" id="qp5">
+
+        </div>
+    </main>
 </body>
 </html>
