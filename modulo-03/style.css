@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --fonte-Texto: 'Quicksand', sans-serif;
+    --fonte-Destaque: 'Bebas Neue', sans-serif;
+}
+
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
@@ -11,6 +20,11 @@ header {
     margin: auto;
     text-align: center;
     padding: 20px;
+}
+
+header h1 {
+    font-family: var(--fonte-Destaque);
+    font-size: 3em;
 }
 
 header > a {
@@ -30,6 +44,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -46,6 +62,8 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.3s;
+    font-family: var(--fonte-Destaque);
+    font-size: 1.6em;
 }
 
 nav > a:hover {
@@ -66,6 +84,8 @@ main h2 {
     text-align: center;
     padding: 10px;
     margin-top: 10px;
+    font-family: var(--fonte-Destaque);
+    font-size: 2em;
 }
 
 main p {
@@ -75,6 +95,8 @@ main p {
     max-width: 900px;
     margin: auto;
     padding: 10px;
+    font-family: var(--fonte-Texto);
+    font-weight: 600;
 }
 
 div.quadrado {
