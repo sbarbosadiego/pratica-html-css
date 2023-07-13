@@ -25,7 +25,7 @@
     </nav>
     <main>
         <article>
-            <h2>
+            <h2 class="sombraTexto">
                 Inserção de Imagens
             </h2>
             <p>
@@ -41,7 +41,7 @@
             </div>
         </article>
         <article>
-            <h2>
+            <h2 class="sombraTexto">
                 Trabalhando com imagens
             </h2>
             <p>
@@ -54,7 +54,7 @@
             </ul>
         </article>
         <article>
-            <h2>
+            <h2 class="sombraTexto">
                 Mini-Projeto Cordel
             </h2>
             <p>
@@ -70,12 +70,205 @@
             </ul>
         </article>
         <article>
-            <h2>
+            <h2 class="sombraTexto">
                 Utilizando Tabelas
             </h2>
             <p>
-                No <strong>capítulo 21</strong> é abordado sobre quando e como utilizar tabelas em um site, geralmente está deve ser utilizada para exibição de dados, assim como pode ser visto neste artigo da <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o">Wikipédia</a>.
+                No <strong>capítulo 21</strong> é abordado sobre quando e como utilizar tabelas em um site, geralmente está deve ser utilizada para exibição de dados, assim como pode ser visto neste artigo da <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o" target="_blank" rel="external">Wikipédia</a>.
             </p>
+            <h3 class="sombraTexto">
+                Tabela Simples
+            </h3>
+            <p>
+                A estrutura de uma tabela é <strong>rígida</strong>, e segue uma hierarquia de tags a serem utilizadas, além disto é preciso aplicar o estilo as tags para criar grades e cores de fundo, no <a href="https://www.htmlprogressivo.net/2013/10/Como-criar-tabelas-linhas-colunas-As-tags-table-tr-td.html" target="_blank" rel="external">link</a> há mais detalhes sobre a criação e uso das tags.
+            </p>
+            <table class="sombra">
+                <tr class="cabeca">
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>A1</td>
+                    <td>B1</td>
+                    <td>C1</td>
+                </tr>
+                <tr>
+                    <td>A2</td>
+                    <td>B2</td>
+                    <td>C2</td>
+                </tr>
+                <tr>
+                    <td>A3</td>
+                    <td>B3</td>
+                    <td>C3</td>
+                </tr>
+                <tr>
+                    <td>A4</td>
+                    <td>B4</td>
+                    <td>C4</td>
+                </tr>
+                
+            </table>
+            <h3 class="sombraTexto">Tabelas Grandes</h3>
+            <p>
+                Trabalhando com tabelas grandes. Acessando este <a href="https://www.w3schools.com/tags/tag_thead.asp" target="_blank" rel="external">artigo</a> é encontrado mais informações sobre o uso das tags thead, tbody e tfoot.
+            </p>
+            <table class="sombra">
+                <caption>
+                    Unidades Federativas
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Posição</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">População</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="posicao">1</td>
+                        <td>São Paulo</td>
+                        <td class="numero">44.420.459</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">2</td>
+                        <td>Minas Gerais</td>
+                        <td class="numero">20.538.718</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">3</td>
+                        <td>Rio de Janeiro</td>
+                        <td class="numero">16.054.524</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">4</td>
+                        <td>Bahia</td>
+                        <td class="numero">14.136.417</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">5</td>
+                        <td>Paraná</td>
+                        <td class="numero">11.443.208</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">6</td>
+                        <td>Rio Grande Do Sul</td>
+                        <td class="numero">10.880.506</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">7</td>
+                        <td>Pernambuco</td>
+                        <td class="numero">9.058.155</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">8</td>
+                        <td>Ceará</td>
+                        <td class="numero">8.791.688</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">9</td>
+                        <td>Pará</td>
+                        <td class="numero">8.116.132</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">10</td>
+                        <td>Santa Catarina</td>
+                        <td class="numero">7.609.601</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">11</td>
+                        <td>Goiás</td>
+                        <td class="numero">7.055.228</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">12</td>
+                        <td>Maranhão</td>
+                        <td class="numero">6.775.152</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">13</td>
+                        <td>Paraíba</td>
+                        <td class="numero">3.974.495</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">14</td>
+                        <td>Amazonas</td>
+                        <td class="numero">3.941.175</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">15</td>
+                        <td>Espírito Santo</td>
+                        <td class="numero">3.833.486</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">16</td>
+                        <td>Mato Grosso</td>
+                        <td class="numero">3.658.813</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">17</td>
+                        <td>Rio Grande do Norte</td>
+                        <td class="numero">3.302.406</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">18</td>
+                        <td>Piauí</td>
+                        <td class="numero">3.269.200</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">19</td>
+                        <td>Alagoas</td>
+                        <td class="numero">3.127.511</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">20</td>
+                        <td>Distrito Federal</td>
+                        <td class="numero">2.817.068</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">21</td>
+                        <td>Mato Grosso do Sul</td>
+                        <td class="numero">2.756.700</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">22</td>
+                        <td>Sergipe</td>
+                        <td class="numero">2.209.558</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">23</td>
+                        <td>Rondônia</td>
+                        <td class="numero">1.581.016</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">24</td>
+                        <td>Tocantins</td>
+                        <td class="numero">1.511.459</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">25</td>
+                        <td>Acre</td>
+                        <td class="numero">830.026</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">26</td>
+                        <td>Amapá</td>
+                        <td class="numero">733.508</td>
+                    </tr>
+                    <tr>
+                        <td class="posicao">27</td>
+                        <td>Roraima</td>
+                        <td class="numero">636.303</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="2">Total Habitantes</th>
+                        <td class="numero"><strong>203.062.512</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
         </article>
     </main>
     <footer>

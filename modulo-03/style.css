@@ -44,8 +44,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
 }
 
 nav {
@@ -73,7 +71,7 @@ nav > a:hover {
 main {
     background-color: white;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     min-width: 300px;
     max-width: 1000px;
     border-radius: 5px;
@@ -88,6 +86,14 @@ main h2 {
     font-size: 2em;
 }
 
+main h3 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: var(--fonte-Destaque);
+    font-size: 1.7em;
+}
+
 main p {
     text-align: justify;
     font-size: 17px;
@@ -97,6 +103,56 @@ main p {
     padding: 10px;
     font-family: var(--fonte-Texto);
     font-weight: 600;
+}
+
+main table {
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+main td, main th {
+    border: 1px solid black;
+    padding: 5px;
+    width: 150px;
+}
+
+main thead {
+    background-color: rgb(194, 194, 194);
+    text-align: center;
+}
+
+/* Cabeçalho da tabela fixo */
+main thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(194, 194, 194);
+    border: 1px solid black;
+}
+
+main caption {
+    font-weight: 900;
+    padding: 3px;
+}
+
+/* Efeito "zebrado" */
+tbody > tr:nth-child(2n) {
+    background-color: rgb(194, 194, 194);
+}
+
+tr.cabeca {
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+}
+
+td.numero {
+    text-align: right;
+}
+
+td.posicao {
+    text-align: center;
 }
 
 div.quadrado {
@@ -114,7 +170,7 @@ main ul {
     width: 890px;
 }
 
-main li > a {
+main li > a, main a {
     text-decoration: none;
 }
 
@@ -143,16 +199,23 @@ div#q3 {
     background-image: url('imagens/pattern003.png');
 }
 
+.sombra {
+    box-shadow: 7px 7px 7px #0000003f;
+}
+
+.sombraTexto {
+    text-shadow: 7px 7px 7px #00000034;
+}
+
 footer {
     text-align: center;
     background-color: white;
-    max-width: 400px;
     margin: auto;
-    border-radius: 5px;
+    border-bottom: 40px;
 }
 
 footer > p {
-    padding: 3px;
+    padding: 10px;
 }
 
 footer > p > a {
