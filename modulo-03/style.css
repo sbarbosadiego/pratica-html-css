@@ -142,11 +142,6 @@ tbody > tr:nth-child(2n) {
     background-color: rgb(194, 194, 194);
 }
 
-tr.cabeca {
-    background-color: rgb(175, 175, 175);
-    text-align: center;
-}
-
 td.numero {
     text-align: right;
 }
