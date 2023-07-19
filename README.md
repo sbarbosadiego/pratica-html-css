@@ -1,5 +1,5 @@
 # Prática em HTML e CSS
- Este diretório contém arquivos de exercícios em HTML+CSS e pequenos projetos de prática do mesmo.
+ Este diretório contém arquivos de exercícios em HTML+CSS e pequenos projetos de prática.
  
 <ul>
     <li>
@@ -10,5 +10,8 @@
     </li>
     <li>
     <a href="https://sbarbosadiego.github.io/pratica-html-css/modulo-03/index.html">Módulo 3</a>
+    </li>
+    <li>
+    <a href="https://sbarbosadiego.github.io/pratica-html-css/modulo-04/index.html">Módulo 4</a>
     </li>
 </ul>
