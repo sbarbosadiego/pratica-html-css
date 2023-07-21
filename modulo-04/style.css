@@ -38,3 +38,57 @@ nav > a:hover {
     color: rgb(124, 124, 126);
 }
 
+/* Configuração Main */
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+main h1, h2, h3 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: var(--fonte-Destaque);
+}
+
+main p {
+    font-family: var(--fonte-Texto);
+    font-weight: 600;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* Configuração Footer*/
+footer {
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    border-bottom: 40px;
+}
+
+footer > p {
+    padding: 10px;
+    font-family: var(--fonte-Texto);
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition-duration: 0.3s;
+    font-family: var(--fonte-Texto);
+}
+
+footer > p > a:hover {
+    color: rgb(124, 124, 126);
+}
+
+/* Class */
+
+iframe.janela {
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+}
+
