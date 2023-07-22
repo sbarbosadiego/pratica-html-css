@@ -31,7 +31,7 @@ nav > a {
     font-weight: bold;
     transition-duration: 0.3s;
     font-family: var(--fonte-Destaque);
-    font-size: 1.8em;
+    font-size: 30px;
 }
 
 nav > a:hover {
@@ -48,17 +48,22 @@ main h1, h2, h3 {
     text-align: center;
     padding: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-family: var(--fonte-Destaque);
 }
 
 main p {
     font-family: var(--fonte-Texto);
-    font-weight: 600;
+    max-width: 800px;
+    margin: auto;
+    font-weight: 500;
     text-align: justify;
     padding: 10px;
 }
 
+main ul {
+    margin-left: 30px;
+}
 /* Configuração Footer*/
 footer {
     text-align: center;
@@ -75,7 +80,7 @@ footer > p {
 footer > p > a {
     text-decoration: none;
     color: black;
-    font-weight: 700;
+    font-weight: 600;
     transition-duration: 0.3s;
     font-family: var(--fonte-Texto);
 }
@@ -87,7 +92,7 @@ footer > p > a:hover {
 /* Class */
 
 iframe.janela {
-    width: 900px;
+    width: 800px;
     height: 500px;
     border: 2px solid black;
 }
