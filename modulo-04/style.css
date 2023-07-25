@@ -17,7 +17,7 @@
 
 /* Configuração Menu */
 nav {
-    margin: auto;
+    max-width: 100%;
     margin-bottom: 20px;
     text-align: center;
     background-color: white;
@@ -38,10 +38,19 @@ nav > a:hover {
     color: rgb(124, 124, 126);
 }
 
+/* Configuração Body */
+body {
+    background-color: black;
+}
+
 /* Configuração Main */
 main {
+    background-color: white;
+    height: 100%;
     max-width: 900px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 main h1, h2, h3 {
@@ -63,7 +72,9 @@ main p {
 
 main ul {
     margin-left: 30px;
+    padding-left: 40px;
 }
+
 /* Configuração Footer*/
 footer {
     text-align: center;
@@ -91,9 +102,13 @@ footer > p > a:hover {
 
 /* Class */
 
+
 iframe.janela {
     width: 800px;
     height: 500px;
     border: 2px solid black;
 }
 
+p.texto {
+    text-indent: 30px;
+}
