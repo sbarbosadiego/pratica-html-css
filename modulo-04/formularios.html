@@ -25,7 +25,10 @@
             <h2>
                 Primeiro Formulário
             </h2>
-            <form action="cadastro.php" autocomplete="off">
+            <p class="texto">
+                Por padrão o método utilizado em formulários é o GET, este pode ser usado em que se trabalha com o envio de dados não sensíveis, este mesmo método carrega as informações preenchidas na URL.
+            </p>
+            <form action="cadastro.php" method="get" autocomplete="off">
                 <p>
                     <label for="inome">Nome:</label> 
                     <input type="text" name="nome" id="inome">
@@ -41,8 +44,25 @@
         </section>
         <section>
             <h2>
-
+                Segundo Formulário
             </h2>
+            <p class="texto">
+                Ao trabalhar com dados sensíveis é preciso alterar o método do formulário para <strong>POST</strong>, caso não seja utilizado os dados serão exibidos na <strong>URL</strong>. Ainda não é maneira mais segura de fazer o envio de informações, sendo necessário o uso de procotolo <strong>HTTPS</strong>.
+            </p>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <p>
+                    <label for="iusuario">Usuário: </label>
+                    <input type="text" name="usuario" id="iusuario" required minlength="5" maxlength="15" size="20" placeholder="Udyr" autocomplete="username">
+                </p>
+                <p>
+                    <label for="isenha">Senha: </label>
+                    <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="21" autocomplete="current-password">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
         </section>
 
     </main>
