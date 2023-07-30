@@ -83,6 +83,10 @@ main ul {
     margin-left: 30px;
     padding-left: 40px;
 }
+main fieldset {
+    max-width: 800px;
+    margin: auto;
+}
 
 /* Configuração Footer*/
 footer {
