@@ -68,6 +68,9 @@
             <h2>
                 Terceiro Formulário
             </h2>
+            <p class="texto">
+                Em um formulário existem diversas ferramentas de controle e customização para dados a serem preenchidos.
+            </p>
             <form action="cadastro.php" method="get" autocomplete="on">
                 <p>
                     <label for="ialuno">Aluno: </label>
@@ -99,6 +102,9 @@
             <h2>
                 Quarto Formulário
             </h2>
+            <p class="texto">
+                Além de uso de <strong>labels</strong> para fazer o agrupamento e etiquetamento de um determinado elemento de input em um formulário, também pode ser usado o <strong>fieldset</strong> que possibilita criar um agrupamento no formulário de forma mais visual e clara.
+            </p>
             <form action="cadastro.php" method="get">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
@@ -119,6 +125,41 @@
                         <input type="reset" value="Limpar">
                     </p>
                 </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2>
+                Quinto Formulário
+            </h2>
+            <form action="cadastro.php" method="get" autocomplete="on">
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="imasculino">
+                    <label for="imasculino">Masculino</label>
+                    <input type="radio" name="sexo" id="ifeminino">
+                    <label for="ifeminino">Feminino</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Esportes</legend>
+                    <input type="checkbox" name="futebol" id="ifutebol" checked>
+                    <label for="ifutebol">Futebol</label>
+                    <input type="checkbox" name="natacao" id="inatacao">
+                    <label for="inatacao">Natação</label>
+                    <input type="checkbox" name="volei" id="ivolei">
+                    <label for="ivolei">Vôlei</label>
+                    <input type="checkbox" name="basquete" id="ibasquete">
+                    <label for="ibasquete">Basquete</label>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </section>
+        <section>
+            <h2>Sexto Formulário</h2>
+            <form action="cadastro.php" method="get">
+                
             </form>
         </section>
 

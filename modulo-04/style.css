@@ -8,6 +8,7 @@
     --fonte-Destaque: 'Bebas Neue', sans-serif;
 }
 
+/* Esconder barra de rolagem */
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
@@ -44,11 +45,15 @@ nav > a:hover {
 }
 
 /* Configuração Body */
-
 html, body {
     height: 100vh;
     width: 100vw;
     background-color: black;
+    background-image: url(imagens/wallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* Configuração Main */
@@ -87,6 +92,15 @@ main fieldset {
     max-width: 800px;
     margin: auto;
 }
+/* Configuração formulário */
+
+main fieldset {
+    padding: 10px;
+}
+
+main legend {
+    padding: 7px;
+}
 
 /* Configuração Footer*/
 footer {
@@ -114,7 +128,6 @@ footer > p > a:hover {
 }
 
 /* Class */
-
 
 iframe.janela {
     width: 800px;
