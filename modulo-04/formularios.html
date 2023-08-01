@@ -133,23 +133,46 @@
             </h2>
             <form action="cadastro.php" method="get" autocomplete="on">
                 <fieldset>
-                    <legend>Sexo</legend>
-                    <input type="radio" name="sexo" id="imasculino">
-                    <label for="imasculino">Masculino</label>
-                    <input type="radio" name="sexo" id="ifeminino">
-                    <label for="ifeminino">Feminino</label>
+                    <fieldset>
+                        <legend>Sexo</legend>
+                        <input type="radio" name="sexo" id="imasculino">
+                        <label for="imasculino">Masculino</label>
+                        <input type="radio" name="sexo" id="ifeminino">
+                        <label for="ifeminino">Feminino</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Esportes</legend>
+                        <input type="checkbox" name="futebol" id="ifutebol" checked>
+                        <label for="ifutebol">Futebol</label>
+                        <input type="checkbox" name="natacao" id="inatacao">
+                        <label for="inatacao">Natação</label>
+                        <input type="checkbox" name="volei" id="ivolei">
+                        <label for="ivolei">Vôlei</label>
+                        <input type="checkbox" name="basquete" id="ibasquete">
+                        <label for="ibasquete">Basquete</label>
+                    </fieldset>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
                 </fieldset>
-                <fieldset>
-                    <legend>Esportes</legend>
-                    <input type="checkbox" name="futebol" id="ifutebol" checked>
-                    <label for="ifutebol">Futebol</label>
-                    <input type="checkbox" name="natacao" id="inatacao">
-                    <label for="inatacao">Natação</label>
-                    <input type="checkbox" name="volei" id="ivolei">
-                    <label for="ivolei">Vôlei</label>
-                    <input type="checkbox" name="basquete" id="ibasquete">
-                    <label for="ibasquete">Basquete</label>
-                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2>Sexto Formulário</h2>
+            <form action="cadastro.php" method="post">
+                <p>
+                    <label for="icor">Cor: </label>
+                    <input type="color" name="cor" id="icor" value="#ff0000">
+                </p>
+                <p>
+                    <label for="inivel">Nível de Satisfação: </label>
+                    <input type="range" name="nivel" id="inivel" min="0" max="10" value="5">
+                </p>
+                <p>
+                    <label for="ifoto">Foto: </label>
+                    <input type="file" name="foto" id="ifoto">
+                </p>
                 <p>
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
@@ -157,9 +180,43 @@
             </form>
         </section>
         <section>
-            <h2>Sexto Formulário</h2>
-            <form action="cadastro.php" method="get">
-                
+            <h2>
+                Sétimo Formulário
+            </h2>
+            <form action="cadastro.php" method="post">
+                <p>
+                    <label for="iestado">Estado: </label>
+                    <select name="estado" id="iestado">
+                        <option value="" selected>Escolha</option>
+                        <optgroup label="Região Sudeste">
+                            <option value="SP">São Paulo</option>
+                            <option value="MG">Minas Gerais</option>
+                        </optgroup>
+                        <optgroup label="Região Sul">
+                            <option value="PR">Paraná</option>
+                            <option value="SC">Santa Catarina</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="iprofissao">Profissão: </label>
+                    <input type="text" name="profissao" id="iprofissao" list="listaprofissao">
+                    <datalist id="listaprofissao">
+                        <option value="ADM">Administrador</option>
+                        <option value="CONT">Contador</option>
+                        <option value="DEV">Desenvolvedor</option>
+                        <option value="PROF">Professor</option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="imensagem">Mensagem: </label><br>
+                    <textarea name="mensagem" id="imensagem" cols="99" rows="10" placeholder="Digite Aqui"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+
             </form>
         </section>
 
