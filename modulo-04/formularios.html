@@ -211,7 +211,7 @@
                 </p>
                 <p>
                     <label for="imensagem">Mensagem: </label><br>
-                    <textarea name="mensagem" id="imensagem" cols="99" rows="10" placeholder="Digite Aqui"></textarea>
+                    <textarea name="mensagem" id="imensagem" cols="99" rows="10" placeholder="Digite aqui"></textarea>
                 </p>
                 <p>
                     <input type="submit" value="Enviar">
@@ -220,7 +220,79 @@
 
             </form>
         </section>
-
+        <section>
+            <h2>
+                Oitavo Formulário
+            </h2>
+            <p class="texto">
+                Também é possível realizar a saída de dados em formulários, um exemplo seria uma simples criação de um output que realiza a soma de valores.
+            </p>
+            <fieldset>
+                <legend>Soma</legend>
+                <form action="cadastro.php" method="get">
+                    <p>
+                        <label for="in1">Número 1: </label>
+                        <input type="number" name="numero1" id="in1" min="0" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+                    </p>
+                    <p>
+                        <label for="in2">Número 2: </label>
+                        <input type="number" name="numero2" id="in2" min="0" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+                    </p>
+                    <p>
+                        <label for="isoma">Soma: </label>
+                        <output name="soma" id="isoma">0</output>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
+                </form>
+            </fieldset>
+        </section>
+        <section>
+            <h2>
+                Nono Formulário
+            </h2>
+            <p class="texto">
+                Ainda utilizando o output para a exibição de valores, pode ser usado para a exibição do valor selecionado dentro de um range.
+            </p>
+            <form action="cadastro.php" method="get">
+                <p>
+                    <label for="inumero">Número: </label>
+                    <input type="range" name="numero" id="inumero" min="0" max="10" value="5" oninput="valor.innerHTML = Number(inumero.value)">
+                    <output id="valor" >5</output>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </section>
+        <section>
+            <h2>
+                Décimo Formulário
+            </h2>
+            <form action="cadastro.php" method="get">
+                <p>
+                    <label for="iano">Ano de Nascimento</label>
+                    <input type="number" name="ano" id="iano" min="1900" value="2000" oninput="calcIdade()">
+                </p>
+                <p>
+                    <label for="iidade">Sua idade: </label>
+                    <output id="iidade">0</output>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </section>
+        <script>
+            function calcIdade () {
+                let atual = new Date().getFullYear()
+                iidade.innerHTML = Number(atual) - Number(iano.value)
+            }
+        </script>
     </main>
     <footer>
         <p>
