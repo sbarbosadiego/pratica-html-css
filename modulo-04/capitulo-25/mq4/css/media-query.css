@@ -10,7 +10,39 @@ Big Screen: Superior a 1200px
 */
 
 @media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../../imagens/back-print.jpg);
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
     
+    main {
+        border: 2px solid black;
+    }
+
+    img#smartphone {
+        display: none;
+    }
+    img#tablet {
+        display: none;
+    }
+    img#impressora {
+        display: block;
+    }
+    img#desktop {
+        display: none;
+    }
+    img#tv {
+        display: none;
+    }
 }
 
 /* Tablet */
