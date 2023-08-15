@@ -6,13 +6,13 @@
     <title>Media Query</title>
     <link rel="shortcut icon" href="../../../imagens/html.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
-        <h1>
-            Teste
-        </h1>
-        <menu>
+        <h1>Teste</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menuItens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -24,9 +24,7 @@
     </header>
     <main>
         <article>
-            <h2>
-                Teste
-            </h2>
+            <h2>Teste</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam libero eius excepturi nesciunt saepe eos expedita impedit, est similique reprehenderit officia cum aut pariatur laborum quas ducimus, reiciendis explicabo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nam veniam omnis facere consectetur est, placeat debitis, laudantium magnam culpa obcaecati dolore molestias, tenetur quibusdam suscipit quo qui expedita doloribus!
             </p>
@@ -36,7 +34,31 @@
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, maxime? Autem corporis suscipit quia tempora a veritatis laborum voluptatum sequi quis, repellendus commodi, non libero laudantium. Quasi nostrum tempore veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consectetur, tenetur atque sunt fugiat modi saepe eius veniam voluptatem ab aperiam facilis obcaecati illo maiores provident deserunt hic, ea voluptates.
             </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quis culpa, velit a eos cum assumenda minus blanditiis doloremque ratione facere. Ex molestias earum incidunt eum ratione aperiam beatae mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti accusantium vero beatae delectus esse fuga illum atque, repellendus possimus eaque ea ex numquam earum rerum quia ipsum! Dolorem, velit quis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero beatae iusto illum perspiciatis tempore eveniet expedita quaerat quisquam facilis alias, ut, autem, suscipit nesciunt repellendus dicta placeat. Sequi, impedit amet.
+            </p>
+        </article>
+        <article>
+            <h2>Teste</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus omnis tenetur, vitae exercitationem ut praesentium aut, perspiciatis similique officia adipisci voluptates amet consequatur maxime repellat? Dolore voluptates autem cum eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ea id consequuntur, ex molestiae velit aperiam, voluptas mollitia incidunt expedita libero voluptatum? Natus nam nesciunt cumque quaerat, vero impedit tenetur!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusamus ipsum modi ea reprehenderit! Ut velit, officia qui ipsum laboriosam placeat nihil labore autem maiores tenetur accusamus quisquam quod quasi!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maiores expedita dolores ipsam iure, laborum ipsum. Consequuntur, repellendus reiciendis exercitationem recusandae molestias aperiam dicta distinctio deleniti sed enim explicabo nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, molestiae! Pariatur soluta, modi mollitia dicta dignissimos cupiditate atque, itaque sit aperiam ratione quidem delectus, blanditiis nobis eaque eius iste ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, eligendi obcaecati modi ad maiores tempore facere architecto et laboriosam ipsa corporis magnam at autem dolorum exercitationem laudantium illum officia blanditiis?
+            </p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (menuItens.style.display == 'block') {
+                menuItens.style.display = 'none'
+            } else {
+                menuItens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
