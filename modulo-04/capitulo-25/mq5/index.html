@@ -6,9 +6,10 @@
     <title>Media Query</title>
     <link rel="shortcut icon" href="../../../imagens/html.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
+<body onresize="tamanho()">
     <header>
         <h1>Teste</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -57,6 +58,14 @@
                 menuItens.style.display = 'none'
             } else {
                 menuItens.style.display = 'block'
+            }
+        }
+
+        function tamanho() {
+            if (window.innerWidth >= 768) {
+                menuItens.style.display = 'block'
+            } else {
+                menuItens.style.display = 'none'
             }
         }
     </script>
