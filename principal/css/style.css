@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    background-color: cadetblue;
+}
+
+main a {
+    text-decoration: none;
+}
