@@ -10,6 +10,35 @@ html, body {
     background-color: cadetblue;
 }
 
-main a {
+main {
+    margin: auto;
+    min-width: 350px;
+    max-width: 1000px;
+}
+
+/* CLASS */
+
+section.principal {
+    margin: auto;
+    text-align: center;
+}
+
+div.box {
+    border: 0px solid black;
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+div.box:hover {
+    width: 160px;
+    height: 160px;
+}
+
+div.box > a {
     text-decoration: none;
+    font-size: 2em;
+
 }
