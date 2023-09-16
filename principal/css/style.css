@@ -1,23 +1,23 @@
 @charset "UTF-8";
 
-body {
+main {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: #ffffff;
-    flex-direction: column; /* Adicionado para centralizar o conteúdo verticalmente */
+    flex-direction: column; /* Adicionado para centralizar o conteúdo verticalmente */ 
 }
 
 footer {
     color: black;
     text-align: center;
     padding: 10px;
-    position: fixed; /* Define o posicionamento fixo */
+    position: relative; /* Define o posicionamento fixo */
     bottom: 0; /* Ancora o rodapé ao fundo da janela */
-    width: 100%; /* Define a largura total do rodapé */
+    width: 98%; /* Define a largura total do rodapé */
 }
 
 footer a {
