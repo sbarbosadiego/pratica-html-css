@@ -3,15 +3,6 @@
  
 <ul>
     <li>
-    <a href="https://sbarbosadiego.github.io/pratica-html-css/modulo-01/index.html">Módulo 1</a>
-    </li>
-    <li>
-    <a href="https://sbarbosadiego.github.io/pratica-html-css/modulo-02/index.html">Módulo 2</a>
-    </li>
-    <li>
-    <a href="https://sbarbosadiego.github.io/pratica-html-css/modulo-03/index.html">Módulo 3</a>
-    </li>
-    <li>
-    <a href="https://sbarbosadiego.github.io/pratica-html-css/modulo-04/index.html">Módulo 4</a>
+    <a href="https://sbarbosadiego.github.io/pratica-html-css/principal/index.html">Página Index</a>
     </li>
 </ul>
